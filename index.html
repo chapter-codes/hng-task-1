@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="img-wrapper">
+                <img src="./images/slaskDisPlayImage.jpg" alt="chapters" data-testid="slackDisplayImage">
+            </div>
+            <p data-testid="slackUserName">Chapters</p>
+        </div>
+        <div id="divider"></div>
+        <div class="right">
+        <p data-testid="currentDayOfTheWeek"><span>Day of The Week:</span></p>
+        <p data-testid="currentUTCTime"><span>UTC Time:</span></span>  <span class="input"></span></p>
+        <p data-testid="myTrack"><span>My Track: </span> Frontend</p>
+        <p data-testid="githubURL"><span>Githhub URL: </span> <span id="link"><a href="https://github.com/chapter-codes/hng-task-1">view my code</a></span></p>
+
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
